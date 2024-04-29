@@ -67,7 +67,7 @@ void bestFit(pdt P[],int n,wq Q[],int m)
     int b=0;
     while(b==0)
     b=1;
-    for(int i = 0; i < m-1)
+    for(int i = 0; i < m-1 ; i++)
     {
             if (Q[i].size_proc >= Q[i+1].size_proc && Q[i].num_proc != -1 )
             {
